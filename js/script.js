@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	const orderTaxi = document.getElementById('order-taxi'),
 	 blockTaxi = document.getElementById('block-taxi'),
-	 btnExit = document.getElementById('btn-exit'),
+	 btnExit = document.getElementById('btn-exit'), 
 
 	
 	const orders = {
