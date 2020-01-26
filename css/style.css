@@ -1,0 +1,314 @@
+/* Fonts */
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url('../fonts/HelveticaNeueCyr-Thin.eot');
+  src: url('../fonts/HelveticaNeueCyr-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueCyr-Thin.woff2') format('woff2'), url('../fonts/HelveticaNeueCyr-Thin.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Thin.ttf') format('truetype'), url('../fonts/HelveticaNeueCyr-Thin.svg#HelveticaNeueCyr-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+/* Colors */
+/* basic settings */
+html {
+  font-size: 12px;
+}
+.all-description {
+  font-family: 'HelveticaNeueCyr', sans-serif;
+  font-size: 1.3rem;
+  margin: 15px 0 20px 60px;
+  color: #000000;
+}
+.all-headers {
+  font-family: 'HelveticaNeueCyr', sans-serif;
+  color: #000000;
+  text-align: center;
+  margin: 25px 0 20px 0;
+}
+.all-btn {
+  background-color: #f50000;
+  color: #ffffff;
+  max-width: 50%;
+  padding: 10px;
+  text-align: center;
+  margin-left: 25%;
+  font-size: 1.3rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.all-btn:hover {
+  cursor: pointer;
+  background-color: #ff5c5c;
+}
+.all_text_form {
+  font-family: 'HelveticaNeueCyr', sans-serif;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-20%);
+          transform: translateX(-50%) translateY(-20%);
+  padding: 0.2rem;
+  background-color: #ffffff;
+}
+.all_form_btn {
+  display: block;
+  background-color: #f50000;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  padding: 10px;
+  font-size: 1.3rem;
+  border: none;
+}
+.all_form_btn:hover {
+  background-color: #ff4242;
+}
+#btn-exit {
+  position: -webkit-sticky;
+  position: sticky;
+  font-size: 2rem;
+  color: red;
+}
+#btn-exit:hover {
+  color: #ff7676;
+}
+.icons {
+  font-size: 2.5rem;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: #000000;
+}
+/* Typografy */
+section {
+  padding: 10rem 0;
+}
+/* Header */
+.header {
+  background-color: #7d7d7d;
+  height: 60px;
+  width: auto;
+}
+.logo img {
+  position: relative;
+  display: block;
+  width: 50px;
+  max-height: 50px;
+}
+.main-button {
+  font-family: 'HelveticaNeueCyr', sans-serif;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-top: 5%;
+  text-decoration: none;
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+}
+.main-button::before {
+  content: '';
+  bottom: -2px;
+  right: 0;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #f50000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+}
+.main-button:hover:before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+.call-me {
+  text-align: right;
+}
+.call-me span {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.fa-whatsapp:hover {
+  font-size: 1.3rem;
+  color: #0DC143;
+}
+.fa-viber:hover {
+  font-size: 1.3rem;
+  color: #7A4E9D;
+}
+.fa-telegram:hover {
+  font-size: 1.3rem;
+  color: #31A3DF;
+}
+.fa-vk:hover {
+  font-size: 1.3rem;
+  color: #4F7DB3;
+}
+.fa-facebook-square:hover {
+  font-size: 1.3rem;
+  color: #3A5894;
+}
+.fa-instagram:hover {
+  font-size: 1.3rem;
+  color: #E96B2F;
+}
+/* main */
+.main-page {
+  background: #ffffff url(../img/main_bg.jpg);
+  background-size: cover;
+  max-height: 630px;
+  padding-bottom: 10rem;
+}
+.main-title {
+  text-shadow: #ffffff 2px 2px 5px, #ffffff -2px -2px 5px, #ffffff -2px 2px 5px, #ffffff 2px -2px 5px;
+  font-family: 'HelveticaNeueCyr', sans-serif;
+  margin-top: 100px;
+  text-align: center;
+  color: #000000;
+}
+/* Нижние кнопки закз тр, экскурсии и гид */
+.main-icons {
+  font-family: 'HelveticaNeueCyr', sans-serif;
+  margin-top: 70px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.main-icons a:hover {
+  color: red;
+}
+/* Services */
+.services {
+  background-image: url(../img/cars/driver.jpg);
+  background-size: cover;
+  margin-top: 50px;
+  height: 300px;
+  max-width: 1170px;
+}
+/* Travels */
+.citys {
+  font-family: 'HelveticaNeueCyr', sans-serif;
+  color: #000000;
+  text-align: center;
+  margin-top: 30px;
+  background: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(35%, #e37f91), to(#ff5b5b));
+  background: linear-gradient(180deg, #ffffff 0%, #e37f91 35%, #ff5b5b 100%);
+  padding: 20px;
+}
+.citys .ways {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 5px;
+  font-size: 1.9rem;
+}
+.citys .ways span {
+  color: #ffffff;
+}
+.citys .ways span:hover {
+  color: red;
+}
+.citys .madrid {
+  background-image: url(../img/Madrid/photo-of-concrete-buildings-with-little-stores-in-between-723465.jpg);
+}
+.citys .valencia {
+  background-image: url(../img/Valencia/photo-of-an-alley-1799939.jpg);
+}
+.citys .guadalest {
+  background-image: url(../img/Guadalest/guadalest.jpg);
+}
+.citys .cartagena {
+  background-image: url(../img/Cartagena/cartagena.jpg);
+}
+.citys .benidorm {
+  background-image: url(../img/Benidorm/attila-suranyi-41ySbWkof24-unsplash.jpg);
+}
+.citys .alicante {
+  background-image: url(../img/Alicante/alicante.jpg);
+}
+/* Rent a car */
+.rent_car {
+  margin-top: 20px;
+}
+.rent_car img {
+  margin-top: 30px;
+  width: 100%;
+}
+.rent_car .all-btn {
+  margin-top: 30px;
+}
+/* Sea walk */
+.sea_walk {
+  margin-top: 30px;
+}
+.sea_walk img {
+  width: 100%;
+}
+/* Footer */
+.footer {
+  margin-top: 40px;
+  background-color: #8C8C8C;
+  height: 100px;
+}
+/* Forma Order Taxi :not(.exit)*/
+.orders {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 25%;
+  left: 25%;
+  padding: 1rem 3rem 3rem 3rem;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  text-align: right;
+}
+.orders .form_taxi_coments {
+  border-radius: 3px;
+  font-size: 14px;
+  font-style: italic;
+  margin: 0.8rem 0;
+  resize: none;
+  width: 100%;
+  height: 8rem;
+}
+.orders .form_taxi {
+  display: inline-block;
+  width: 100%;
+  height: 3rem;
+  font-size: 16px;
+  margin: 0.7rem 0;
+  padding: 1.5rem 0.3rem;
+  border-radius: 3px;
+}
+/* Оформление секции с городами */
+@media (max-width: 768px) {
+  .main-title {
+    margin-top: 20px;
+  }
+  .main-title-2 {
+    display: none;
+  }
+  .call-me {
+    text-align: center;
+  }
+  .main-icons {
+    margin-top: 35px;
+  }
+  .main-icons i {
+    font-size: 60px;
+  }
+  .main-icons span {
+    font-size: 30px;
+  }
+}
